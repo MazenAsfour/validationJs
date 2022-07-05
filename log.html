@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>validation</title>
+    <link rel="stylesheet" href="log.css">
+    <script src="https://kit.fontawesome.com/01c66817ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1 id="r">Register</h1>
+<div class="container">
+
+
+<div class="row">
+<div class="left">
+<h2>first name</h2>
+<h2>Second name</h2>
+<h2>Email</h2>
+<h2>Password</h2>
+<h2>Re-password</h2>
+<h2>Birthday</h2>
+</div>
+
+
+<div class="right">
+ 
+<input type="text" onblur=first1() id="first"name="ftext" class="" placeholder="first name">
+<h3 id ="f">error</h3>
+<input type="text" id="second" name="stext" onblur="second()" class="" placeholder="second name">
+<h3 id ="s">error</h3>
+<input type="email"requried onblur="email()" name="email" id="email" class="right" placeholder="email">
+<h3 id="e"></h3>
+<input type="password" name="paswsword" id="pass"class="right" placeholder="password">
+<h3></h3>
+<input type="password" onmouseleave="password1()" name="re-password" id="repass"class="right" id="" placeholder="re-password">
+<h3 id="p">error</h3>
+
+<input type="date" name="date" id="date"class="right" placeholder="date">
+<h3></h3>
+</div>
+</div>
+<div class="clear">
+
+</div>
+
+<div class="row">
+    <input type="submit" readonly id="btn" value="submet">
+</div>
+<div class="row">
+    <h1>Sign up with</h1>
+    <span>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-google"></i>  
+        <i class="fab fa-telegram"></i>  
+    </span>
+</div>
+
+</div>
+
+    <script src="log.js"></script>
+</body>
+</html>
